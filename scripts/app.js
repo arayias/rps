@@ -58,7 +58,7 @@ buttons.forEach((button) => {
 
     // cycle through the possible choices on the computer selection
     // computerSelection = 0, 1, 2
-    computerChoiceEl.style.opacity = 0.2;
+    computerChoiceEl.style.opacity = 0.3;
     let i = 0;
     const intervalId = setInterval(() => {
       computerChoiceEl.textContent = translateChoiceToEmoji(possibleChoices[i]);
